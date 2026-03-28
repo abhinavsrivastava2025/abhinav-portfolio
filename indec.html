@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abhinav Srivastava | Actor & Programmer</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; 
+            line-height: 1.6; color: #333; background: #0a0a0a; 
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Hero */
+        .hero { 
+            text-align: center; padding: 100px 0; color: white; 
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+        }
+        .hero h1 { font-size: 3.5em; font-weight: 700; margin-bottom: 10px; }
+        .hero .tagline { font-size: 1.4em; opacity: 0.9; margin-bottom: 30px; }
+        .hero .location { font-size: 1.1em; opacity: 0.7; }
+        
+        /* Sections */
+        section { padding: 80px 0; }
+        h2 { font-size: 2.5em; text-align: center; margin-bottom: 60px; color: white; }
+        
+        /* Project Grid */
+        .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 30px; }
+        .project-card { 
+            background: rgba(255,255,255,0.05); backdrop-filter: blur(10px); 
+            border-radius: 20px; padding: 30px; border: 1px solid rgba(255,255,255,0.1);
+            transition: all 0.3s ease; 
+        }
+        .project-card:hover { transform: translateY(-10px); box-shadow: 0 20px 40px rgba(0,0,0,0.3); }
+        .project-card h3 { color: #00d4ff; font-size: 1.5em; margin-bottom: 15px; }
+        .project-card .tech { color: #888; font-size: 0.9em; margin-bottom: 15px; }
+        .project-card a { color: #00d4ff; text-decoration: none; font-weight: 500; }
+        .project-card a:hover { text-decoration: underline; }
+        
+        /* Skills */
+        .skills { text-align: center; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 40px; }
+        .skill { background: rgba(255,255,255,0.05); padding: 20px; border-radius: 12px; }
+        
+        /* Contact */
+        .contact { background: rgba(255,255,255,0.05); border-radius: 20px; padding: 40px; text-align: center; }
+        .contact a { color: #00d4ff; text-decoration: none; font-size: 1.1em; display: block; margin: 10px 0; }
+        
+        /* Responsive */
+        @media (max-width: 768px) { .hero h1 { font-size: 2.5em; } h2 { font-size: 2em; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Hero -->
+        <section class="hero">
+            <h1>Abhinav Srivastava</h1>
+            <p class="tagline">Actor & Programmer | Netflix Extraction | CAT 2026 Aspirant</p>
+            <p class="location">Thane, Maharashtra</p>
+        </section>
+
+        <!-- Acting Projects -->
+        <section id="acting">
+            <h2>🎬 Acting</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Extraction (Netflix 2020)</h3>
+                    <p>Cameo role as <strong>Sanjib, the rooftop boy</strong> in Chris Hemsworth's blockbuster action film.</p>
+                    <p class="tech">Netflix Original | Directed by Sam Hargrave</p>
+                    <a href="https://www.imdb.com/name/nm11523071/" target="_blank">View on IMDb →</a>
+                </div>
+                <div class="project-card">
+                    <h3>A Secret (VFS Film Society)</h3>
+                    <p><strong>Main Lead</strong> in upcoming short film by VIT Film Society. Release: Oct/Nov 2026.</p>
+                    <p class="tech">Lead Role | VFS Production</p>
+                    <a href="https://www.instagram.com/film.engineers/" target="_blank">film.engineers on Instagram →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Play Awards & Lead Roles</h3>
+                    <ul style="margin: 15px 0; padding-left: 20px;">
+                        <li><strong>1st Place:</strong> "Two Characters Looking for Actors" (DPS International Saket)</li>
+                        <li><strong>2 Wins:</strong> "Thalia & Melpomene" (VIT Vellore Riviera)</li>
+                        <li><strong>2 Wins:</strong> Acting Competition (SRM Chennai Milan Fest)</li>
+                        <li>Multiple main lead roles in school plays</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tech Projects -->
+        <section id="tech" style="background: rgba(255,255,255,0.02);">
+            <h2>💻 Programming</h2>
+            <div class="projects">
+                <div class="project-card">
+                    <h3>Meteora Dashboard</h3>
+                    <p>Multi-page web dashboard with live weather, analytics, login system, and Tailwind CSS design. Features page routing and responsive UI.</p>
+                    <p class="tech">Python • Dash • Tailwind CSS • Pandas</p>
+                    <a href="https://github.com/abhinavsrivastava2025" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="project-card">
+                    <h3>Stock Portfolio Tracker</h3>
+                    <p>Complete C++ OOP application with abstract classes, inheritance, polymorphism, STL vectors, exception handling, file persistence, and recursive transaction search.</p>
+                    <p class="tech">C++ • OOP • STL • File I/O • Recursion[file:20]</p>
+                    <a href="https://github.com/ADarcside/python-project" target="_blank">View Code →</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill"><strong>🎭 Acting</strong><br>Lead Roles • Improvisation • Competitions</div>
+                <div class="skill"><strong>🐍 Python</strong><br>Fluent (Dash • Pandas • Web Apps)</div>
+                <div class="skill"><strong>⚡ C / C++</strong><br>Fluent C • Learning C++</div>
+                <div class="skill"><strong>📚 CAT Prep</strong><br>MBA Aspirant 2026</div>
+                <div class="skill"><strong>🌐 Web Dev</strong><br>Dash • Tailwind • Responsive</div>
+                <div class="skill"><strong>📊 Data Structures</strong><br>Queues • Sorting • Algorithms</div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact">
+            <h2>Connect</h2>
+            <div class="contact">
+                <a href="tel:+918505870999">📱 +91 85058 70999</a>
+                <a href="mailto:abhinavsrivastava260@gmail.com">✉️ abhinavsrivastava260@gmail.com</a>
+                <a href="https://www.linkedin.com/in/abhinav-srivastava-8846243a4" target="_blank">💼 LinkedIn</a>
+                <a href="https://github.com/abhinavsrivastava2025" target="_blank">🐙 GitHub: abhinavsrivastava2025</a>
+            </div>
+        </section>
+    </div>
+    
+    <script>
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault(); document.querySelector(this.getAttribute('href')).scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+    </script>
+</body>
+</html>
